@@ -1,7 +1,9 @@
 name: Run JAR on Schedule
 
 on:
-   workflow_dispatch:
+  schedule:
+    # 每天的UTC时间00:00运行
+    - cron: '0 0 * * *'
 
 jobs:
   run-jar:
