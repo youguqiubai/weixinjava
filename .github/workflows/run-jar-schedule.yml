@@ -1,8 +1,7 @@
 name: Run JAR on Schedule
 
 on:
-  schedule:
-    - cron: '0 0 * * *' # 每天午夜执行，Cron表达式需根据需要调整
+   workflow_dispatch:
 
 jobs:
   run-jar:
