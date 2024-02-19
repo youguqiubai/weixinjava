@@ -18,4 +18,4 @@ jobs:
         java-version: '8' # 根据项目需要选择JDK版本
 
     - name: Run JAR file
-      run: java -jar path/to/your-jar-file.jar
+      run: java -jar path/to/weixin-1.0-SNAPSHOT.jar
